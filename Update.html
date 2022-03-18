@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<title>Update</title>
+<link rel="stylesheet" href="css/chessstyle.css">
+<link rel="icon" href="image/chessknight.png">
+</head>
+<body>
+<header>
+<h1><b><u>Chess Championship</u></b></h1>
+<nav>
+	<a href="Chess.html">HOME</a>
+	<a href="Table.html">TABLE</a>
+	<a href="Stat.html">PLAYER STATISTICS</a>
+	<a id="active" href="Update.html">UPDATE</a>
+	<a href="Change.html">CHANGE PASSWORD</a>
+	<a href="About.html">ABOUT</a>
+</nav>
+</header>
+<form id="form" align="center">
+	<fieldset>
+		<legend>Player info</legend>
+		<label for="Date">Date</label>
+		<input type="Date" name="Date" id="Date" required>
+	    <label for="Winner">Name of a Winner</label>
+	    <input type="text" name="Winner" placeholder="Winner" id="Winner" required>
+	    <label for="Runner-up">Name of a Runner-up</label>
+	    <input type="text" name="Runner-up" placeholder="Runner-up" id="Runner-up" required>
+	</fieldset>
+	<fieldset>
+		<legend>Information on Home Page</legend>
+	    <label for="Notification">Notification</label>
+	    <input type="text" name="Notification" placeholder="Notification" id="Notification">
+	    <label for="Facts">Facts</label>
+	    <input type="text" name="Facts" placeholder="Facts" id="Facts">
+    </fieldset>
+    <input type="Submit" value="Submit">
+</form>
+</body>
+</html>
